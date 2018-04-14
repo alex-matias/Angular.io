@@ -14,7 +14,7 @@ import { HeroesComponent } from './heroes/heroes.component';
       HeroesComponent
   ],
   imports: [
-      BrowserModule,
+      BrowserModule.withServerTransition({ appId: 'serverApp' }),
       FormsModule
   ],
   providers: [],
